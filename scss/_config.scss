@@ -1,0 +1,31 @@
+$primary-color: #252525;
+$secondary-color: #201630;
+$third-color: #abc500;
+
+@font-face {
+  font-family: inter;
+  src: url('../static/fonts/Inter-Medium.ttf');
+}
+
+html{
+  font-family: inter;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,select,input,textarea{
+  outline: 0 !important;
+}
+li,a{
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.hisizon-carousell-inner .slick-slide img{
+  border: none !important;
+}
+.slick-dots li.slick-active button:before{
+  color: $third-color !important;
+}

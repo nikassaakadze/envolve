@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+</head>
+<body>
+  <div class="search-fade-block">
+    <div class="search-fade-block-inner">
+      <form action="">
+        <input type="text" placeholder="Enter text here...">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div onclick="searchHide()" class="search-fade-out">
+      <svg width="35" height="35" viewBox="0 0 493 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M484.136 227.473L264.988 8.32899C259.924 3.26499 253.172 0.484985 245.816 0.484985C238.608 0.484985 231.852 3.26499 226.796 8.32899L7.852 227.265C2.788 232.333 0 239.089 0 246.297C0 253.505 2.784 260.265 7.852 265.329L23.976 281.453C29.04 286.517 35.8 289.313 43.008 289.313C50.216 289.313 56.972 286.517 62.04 281.453L245.892 97.601L429.948 281.665C435.012 286.725 441.768 289.517 448.98 289.517C456.188 289.517 462.94 286.725 468.008 281.665L484.136 265.533C494.624 255.041 494.624 237.965 484.136 227.473Z" fill="black"/>
+      </svg>   
+    </div>   
+  </div>
+  <div class="site-top-block">
+    <div class="site-top-block-inner">
+      <div class="site-top-block-inner-left">
+        <div class="site-top-block-inner-left-inLBlockGroup">
+          <div class="site-top-block-inner-left-inLBlockGroup-call">
+            <svg width="18" height="20" viewBox="0 0 513 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M213.012 299.988C164.143 251.118 153.108 202.249 150.619 182.669C149.923 177.255 151.786 171.826 155.659 167.98L195.207 128.45C201.024 122.636 202.057 113.576 197.696 106.602L134.729 8.82758C129.905 1.10564 120 -1.68129 111.857 2.39227L10.7721 49.9994C4.18722 53.2419 0.314095 60.2382 1.06173 67.5399C6.35829 117.857 28.2948 241.549 149.851 363.114C271.407 484.679 395.081 506.606 445.425 511.903C452.726 512.651 459.723 508.777 462.965 502.193L510.572 401.108C514.631 392.983 511.862 383.104 504.172 378.271L406.398 315.321C399.428 310.956 390.368 311.981 384.55 317.793L345.02 357.341C341.174 361.214 335.744 363.077 330.331 362.381C310.751 359.892 261.882 348.857 213.012 299.988V299.988Z" fill="black"/>
+              <path d="M407.069 273.655C397.318 273.655 389.414 265.751 389.414 256C389.331 182.904 330.096 123.669 257 123.586C247.249 123.586 239.345 115.682 239.345 105.931C239.345 96.1804 247.249 88.2759 257 88.2759C349.589 88.378 424.622 163.411 424.724 256C424.724 265.751 416.82 273.655 407.069 273.655Z" fill="black"/>
+              <path d="M495.345 273.655C485.594 273.655 477.69 265.751 477.69 256C477.553 134.173 378.827 35.4466 257 35.3103C247.249 35.3103 239.345 27.4059 239.345 17.6552C239.345 7.90449 247.249 0 257 0C398.32 0.155682 512.844 114.68 513 256C513 260.682 511.14 265.173 507.829 268.484C504.518 271.795 500.027 273.655 495.345 273.655Z" fill="black"/>
+            </svg> 
+            <span>( +995 ) 123 456 789</span>             
+          </div>
+          <div class="site-top-block-inner-left-inLBlockGroup-mail">
+            <svg width="20" height="20" viewBox="0 0 512 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M507.49 25.721L352.211 180L507.49 334.279C510.297 328.412 512 321.926 512 315V45C512 38.073 510.297 31.588 507.49 25.721Z" fill="black"/>
+              <path d="M467 0H44.9999C38.0729 0 31.5879 1.703 25.7209 4.51L224.184 201.973C241.732 219.521 270.268 219.521 287.816 201.973L486.279 4.51C480.412 1.703 473.927 0 467 0Z" fill="black"/>
+              <path d="M4.51 25.721C1.703 31.588 0 38.073 0 45V315C0 321.927 1.703 328.413 4.51 334.279L159.789 180L4.51 25.721Z" fill="black"/>
+              <path d="M331 201.211L309.027 223.184C279.788 252.423 232.211 252.423 202.972 223.184L181 201.211L25.7209 355.49C31.5879 358.297 38.0729 360 44.9999 360H467C473.927 360 480.412 358.297 486.279 355.49L331 201.211Z" fill="black"/>
+            </svg>  
+            <span>Example@company.company</span>                       
+          </div>
+        </div>
+      </div>
+      <div class="site-top-block-inner-right">
+        <span onclick="searchOpen()" class="site-top-search">
+          <svg width="20" height="20" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M225.773 0.615997C101.283 0.615997 0 101.622 0 225.773C0 349.924 101.284 450.93 225.773 450.93C350.262 450.93 451.547 349.924 451.547 225.773C451.547 101.622 350.263 0.615997 225.773 0.615997ZM225.773 413.917C121.689 413.917 37.012 329.511 37.012 225.772C37.012 122.027 121.689 37.627 225.773 37.627C329.857 37.627 414.534 122.027 414.534 225.772C414.535 329.511 329.858 413.917 225.773 413.917Z" fill="black"/>
+            <path d="M506.547 479.756L385.024 358.85C377.776 351.645 366.061 351.676 358.85 358.918C351.645 366.166 351.676 377.88 358.918 385.092L480.441 505.998C484.056 509.588 488.769 511.383 493.494 511.383C498.25 511.383 503 509.563 506.615 505.93C513.82 498.681 513.789 486.967 506.547 479.756Z" fill="black"/>
+          </svg>    
+        </span>      
+      </div>
+    </div>
+  </div>
+  <header id="navbar" class="site-header">
+    <div class="site-header-inner">
+      <div class="site-header-inner-left">
+        <div class="site-header-inner-left-logo">
+          <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/10/logo-v3.png" alt="">
+        </div>
+      </div>
+      <nav class="site-header-inner-left-nav">
+        <ul>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Company</a>
+            <div class="nav-menu-toggled">
+              <span class="nav-toggles-option">Option - 1</span>
+              <span class="nav-toggles-option">Option - 2</span>
+              <span class="nav-toggles-option">Option - 3</span>
+              <span class="nav-toggles-option">Option - 4</span>
+              <span class="nav-toggles-option">Option - 5</span>
+              <span class="nav-toggles-option">Option - 6</span>
+              <span class="nav-toggles-option">Option - 7</span>
+            </div>
+          </li>
+          <li>
+            <a href="">Services</a>
+            <div class="nav-menu-toggled">
+              <span class="nav-toggles-option">Option - 1</span>
+              <span class="nav-toggles-option">Option - 2</span>
+              <span class="nav-toggles-option">Option - 3</span>
+              <span class="nav-toggles-option">Option - 4</span>
+              <span class="nav-toggles-option">Option - 5</span>
+              <span class="nav-toggles-option">Option - 6</span>
+              <span class="nav-toggles-option">Option - 7</span>
+            </div>
+          </li>
+          <li>
+            <a href="">Portfolio</a>
+            <div class="nav-menu-toggled">
+              <span class="nav-toggles-option">Option - 1</span>
+              <span class="nav-toggles-option">Option - 2</span>
+              <span class="nav-toggles-option">Option - 3</span>
+              <span class="nav-toggles-option">Option - 4</span>
+              <span class="nav-toggles-option">Option - 5</span>
+              <span class="nav-toggles-option">Option - 6</span>
+              <span class="nav-toggles-option">Option - 7</span>
+            </div>
+          </li>
+          <li>
+            <a href="">Blog</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li class="contact-btn">
+            <a href class="contact-btn-more-hidden">
+              <span href="">Message</span>
+              <svg width="20" height="20" viewBox="0 0 512 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M507.49 25.721L352.211 180L507.49 334.279C510.297 328.412 512 321.926 512 315V45C512 38.073 510.297 31.588 507.49 25.721Z" fill="black"/>
+                <path d="M467 0H44.9999C38.0729 0 31.5879 1.703 25.7209 4.51L224.184 201.973C241.732 219.521 270.268 219.521 287.816 201.973L486.279 4.51C480.412 1.703 473.927 0 467 0Z" fill="black"/>
+                <path d="M4.51 25.721C1.703 31.588 0 38.073 0 45V315C0 321.927 1.703 328.413 4.51 334.279L159.789 180L4.51 25.721Z" fill="black"/>
+                <path d="M331 201.211L309.027 223.184C279.788 252.423 232.211 252.423 202.972 223.184L181 201.211L25.7209 355.49C31.5879 358.297 38.0729 360 44.9999 360H467C473.927 360 480.412 358.297 486.279 355.49L331 201.211Z" fill="black"/>
+              </svg> 
+            </a>
+            <a href="" class="contact-btn-vis">
+              <span href="">Contact Us</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="responsive-nav-burger">
+        <svg width="20" height="20" viewBox="0 0 384 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M384 213.333H0V256H384V213.333Z" fill="black"/>
+          <path d="M384 106.667H0V149.334H384V106.667Z" fill="black"/>
+          <path d="M384 0H0V42.667H384V0Z" fill="black"/>
+        </svg>          
+      </div>
+    </div>
+  </header>
+  <div class="site-welcome-wrapper">
+    <div class="site-welcome-wrapper-inner">
+      <div class="site-banner-descriptions">
+        <h1>ENVOLVE & CO</h1>
+        <h3>A Global Leader in Consulting  Business Firm</h3>
+        <div class="text">Every pleasures is to welcomed pain avoided owing <br>Duty the obligations of our business.</div>
+        <div class="envolve-btn">
+          <span>More About Envolve</span>
+          <div class="arrow-right">
+            <svg width="20" height="20" viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M506.134 109.843C506.128 109.837 506.123 109.83 506.116 109.824L401.612 5.82406C393.783 -1.96694 381.12 -1.93795 373.327 5.89205C365.535 13.7211 365.565 26.384 373.394 34.176L443.558 104H20C8.954 104 0 112.954 0 124C0 135.046 8.954 144 20 144H443.557L373.395 213.824C365.566 221.616 365.536 234.279 373.328 242.108C381.121 249.939 393.785 249.966 401.613 242.176L506.117 138.176C506.123 138.17 506.128 138.163 506.135 138.157C513.968 130.339 513.943 117.635 506.134 109.843Z" fill="black"/>
+            </svg>              
+          </div>
+        </div>
+      </div>
+      <div class="banner-image">
+        <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/7.jpg" alt="">
+      </div>
+      <div class="banner-features-block">
+        <div class="banner-features-block-contentBox">
+          <div class="banner-features-block-contentBox-img">
+            <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/icon-14.png" alt="">
+          </div>
+          <h4>#1 consulting firm in western</h4>
+          <p>In free hour when power choices when prove prevent easy to distinguish.</p>
+          <div class="read-more-btn">
+            <a href="">READ MORE</a>
+            <span>
+              <svg width="20" height="20" viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M506.134 109.843C506.128 109.837 506.123 109.83 506.116 109.824L401.612 5.82406C393.783 -1.96694 381.12 -1.93795 373.327 5.89205C365.535 13.7211 365.565 26.384 373.394 34.176L443.558 104H20C8.954 104 0 112.954 0 124C0 135.046 8.954 144 20 144H443.557L373.395 213.824C365.566 221.616 365.536 234.279 373.328 242.108C381.121 249.939 393.785 249.966 401.613 242.176L506.117 138.176C506.123 138.17 506.128 138.163 506.135 138.157C513.968 130.339 513.943 117.635 506.134 109.843Z" fill="black"/>
+              </svg>   
+            </span>
+          </div>
+        </div>
+        <div class="banner-features-block-contentBox">
+          <div class="banner-features-block-contentBox-img">
+            <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/icon-15.png" alt="">
+          </div>
+          <h4>More than 50,000 happy clients</h4>
+          <p>Obligations of business it will frequently occurs that pleasures accepted.</p>
+          <div class="read-more-btn">
+            <a href="">READ MORE</a>
+            <span>
+              <svg width="20" height="20" viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M506.134 109.843C506.128 109.837 506.123 109.83 506.116 109.824L401.612 5.82406C393.783 -1.96694 381.12 -1.93795 373.327 5.89205C365.535 13.7211 365.565 26.384 373.394 34.176L443.558 104H20C8.954 104 0 112.954 0 124C0 135.046 8.954 144 20 144H443.557L373.395 213.824C365.566 221.616 365.536 234.279 373.328 242.108C381.121 249.939 393.785 249.966 401.613 242.176L506.117 138.176C506.123 138.17 506.128 138.163 506.135 138.157C513.968 130.339 513.943 117.635 506.134 109.843Z" fill="black"/>
+              </svg>   
+            </span>
+          </div>
+        </div>
+        <div class="banner-features-block-contentBox">
+          <div class="banner-features-block-contentBox-img">
+            <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/icon-16.png" alt="">
+          </div>
+          <h4>Experienced consulting team</h4>
+          <p>To take a trivial example which of us every undertakes physical exercise.</p>
+          <div class="read-more-btn">
+            <a href="">READ MORE</a>
+            <span>
+              <svg width="20" height="20" viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M506.134 109.843C506.128 109.837 506.123 109.83 506.116 109.824L401.612 5.82406C393.783 -1.96694 381.12 -1.93795 373.327 5.89205C365.535 13.7211 365.565 26.384 373.394 34.176L443.558 104H20C8.954 104 0 112.954 0 124C0 135.046 8.954 144 20 144H443.557L373.395 213.824C365.566 221.616 365.536 234.279 373.328 242.108C381.121 249.939 393.785 249.966 401.613 242.176L506.117 138.176C506.123 138.17 506.128 138.163 506.135 138.157C513.968 130.339 513.943 117.635 506.134 109.843Z" fill="black"/>
+              </svg>   
+            </span>
+          </div>
+        </div>
+        <div class="banner-features-block-contentBox">
+          <div class="banner-features-block-contentBox-img">
+            <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/icon-17-105x100.png" alt="">
+          </div>
+          <h4>8 countries and 26 cities</h4>
+          <p>Explain to you how all this mistaken idea of denouncing praising complete.</p>
+          <div class="read-more-btn">
+            <a href="">READ MORE</a>
+            <span>
+              <svg width="20" height="20" viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M506.134 109.843C506.128 109.837 506.123 109.83 506.116 109.824L401.612 5.82406C393.783 -1.96694 381.12 -1.93795 373.327 5.89205C365.535 13.7211 365.565 26.384 373.394 34.176L443.558 104H20C8.954 104 0 112.954 0 124C0 135.046 8.954 144 20 144H443.557L373.395 213.824C365.566 221.616 365.536 234.279 373.328 242.108C381.121 249.939 393.785 249.966 401.613 242.176L506.117 138.176C506.123 138.17 506.128 138.163 506.135 138.157C513.968 130.339 513.943 117.635 506.134 109.843Z" fill="black"/>
+              </svg>   
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
+  <div class="team-area-block">
+    <div class="team-area-block-inner">
+      <div class="team-area-block-inner-about">
+        <span class="about-block">ABOUT COMPANY</span>
+        <h1>Trusted Business Consultants</h1>
+        <p>
+          How all this mistaken idea of denouncing pleasure and praising pain was born and we
+          will give you a complete account of the system, and expound the actual teaching the great explorer
+          the truth, the master-builder of human happiness.
+        </p>
+      </div>
+      <div class="team-members-grid">
+        <div class="tem-member-item">
+          <div class="team-member-img">
+            <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/team-8.png" alt="">
+          </div>
+          <div class="team-member-info">
+            <div class="team-member-info-left">
+              <h3>Adam Clinton </h3>
+              <h4>Managing Director</h4>
+            </div>
+            <div class="team-member-info-right">
+              <svg width="60" height="60" viewBox="0 0 143 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M142.411 68.9C141.216 31.48 110.968 1.23298 73.5491 0.0379807C53.1881 -0.608019 34.1391 7.14198 20.0611 21.677C6.5271 35.65 -0.583903 54.071 0.0380966 73.549C1.2321 110.968 31.4801 141.216 68.8991 142.41C69.6781 142.435 70.4501 142.447 71.2241 142.447C90.6781 142.447 108.848 134.749 122.387 120.771C135.921 106.799 143.033 88.377 142.411 68.9ZM111.613 110.336C100.925 121.371 86.5811 127.448 71.2241 127.448C70.6101 127.448 69.9961 127.438 69.3771 127.419C39.8451 126.476 15.9731 102.604 15.0291 73.071C14.5381 57.689 20.1511 43.143 30.8351 32.113C41.5231 21.078 55.8671 15.001 71.2241 15.001C71.8381 15.001 72.4521 15.011 73.0711 15.03C102.603 15.973 126.475 39.845 127.419 69.378C127.91 84.76 122.296 99.306 111.613 110.336Z" fill="#1D1D1B"/>
+                <path d="M94.5851 67.086L63.0011 44.44C59.6321 42.024 54.9421 44.432 54.9421 48.578V93.871C54.9421 98.017 59.6321 100.425 63.0011 98.009L94.5841 75.362C97.4181 73.331 97.4181 69.118 94.5851 67.086Z" fill="#1D1D1B"/>
+              </svg>                
+            </div>
+          </div>
+        </div>
+        <div class="tem-member-item">
+          <div class="team-member-img">
+            <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/team-9.png" alt="">
+          </div>
+          <div class="team-member-info">
+            <div class="team-member-info-left">
+              <h3>Adam Clinton </h3>
+              <h4>Managing Director</h4>
+            </div>
+            <div class="team-member-info-right">
+              <svg width="60" height="60" viewBox="0 0 143 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M142.411 68.9C141.216 31.48 110.968 1.23298 73.5491 0.0379807C53.1881 -0.608019 34.1391 7.14198 20.0611 21.677C6.5271 35.65 -0.583903 54.071 0.0380966 73.549C1.2321 110.968 31.4801 141.216 68.8991 142.41C69.6781 142.435 70.4501 142.447 71.2241 142.447C90.6781 142.447 108.848 134.749 122.387 120.771C135.921 106.799 143.033 88.377 142.411 68.9ZM111.613 110.336C100.925 121.371 86.5811 127.448 71.2241 127.448C70.6101 127.448 69.9961 127.438 69.3771 127.419C39.8451 126.476 15.9731 102.604 15.0291 73.071C14.5381 57.689 20.1511 43.143 30.8351 32.113C41.5231 21.078 55.8671 15.001 71.2241 15.001C71.8381 15.001 72.4521 15.011 73.0711 15.03C102.603 15.973 126.475 39.845 127.419 69.378C127.91 84.76 122.296 99.306 111.613 110.336Z" fill="#1D1D1B"/>
+                <path d="M94.5851 67.086L63.0011 44.44C59.6321 42.024 54.9421 44.432 54.9421 48.578V93.871C54.9421 98.017 59.6321 100.425 63.0011 98.009L94.5841 75.362C97.4181 73.331 97.4181 69.118 94.5851 67.086Z" fill="#1D1D1B"/>
+              </svg>                
+            </div>
+          </div>
+        </div>
+        <div class="tem-member-item">
+          <div class="team-member-img">
+            <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/team-10.png" alt="">
+          </div>
+          <div class="team-member-info">
+            <div class="team-member-info-left">
+              <h3>Adam Clinton </h3>
+              <h4>Managing Director</h4>
+            </div>
+            <div class="team-member-info-right">
+              <svg width="60" height="60" viewBox="0 0 143 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M142.411 68.9C141.216 31.48 110.968 1.23298 73.5491 0.0379807C53.1881 -0.608019 34.1391 7.14198 20.0611 21.677C6.5271 35.65 -0.583903 54.071 0.0380966 73.549C1.2321 110.968 31.4801 141.216 68.8991 142.41C69.6781 142.435 70.4501 142.447 71.2241 142.447C90.6781 142.447 108.848 134.749 122.387 120.771C135.921 106.799 143.033 88.377 142.411 68.9ZM111.613 110.336C100.925 121.371 86.5811 127.448 71.2241 127.448C70.6101 127.448 69.9961 127.438 69.3771 127.419C39.8451 126.476 15.9731 102.604 15.0291 73.071C14.5381 57.689 20.1511 43.143 30.8351 32.113C41.5231 21.078 55.8671 15.001 71.2241 15.001C71.8381 15.001 72.4521 15.011 73.0711 15.03C102.603 15.973 126.475 39.845 127.419 69.378C127.91 84.76 122.296 99.306 111.613 110.336Z" fill="#1D1D1B"/>
+                <path d="M94.5851 67.086L63.0011 44.44C59.6321 42.024 54.9421 44.432 54.9421 48.578V93.871C54.9421 98.017 59.6321 100.425 63.0011 98.009L94.5841 75.362C97.4181 73.331 97.4181 69.118 94.5851 67.086Z" fill="#1D1D1B"/>
+              </svg>                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="exp-proj-block">
+        <div class="exp-proj-block-inner">
+          <div class="exp-proj-block-inner-fl-bg">
+            <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/image-11.jpg" alt="">
+          </div>
+          <div class="exp-proj-block-inner-fl-sm">
+            <h3>PROJECTS WITH 100% SATISFACTION</h3>
+            <h1>2.5K</h1>
+            <a href="">VIEW PROJECTS</a>
+          </div>
+          <div class="exp-proj-block-inner-fl-sm">
+            <h3>EXPERIENCED & PROFESSIONAL TEAM</h3>
+            <h1>138</h1>
+            <a href="">VIEW PROJECTS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="why-us-area">
+    <div class="why-us-area-inner">
+      <div class="why-us-area-inner-left">
+        <div class="why-us-heading">
+          <span class="line-ws-sm"></span>
+          <span>WHY CHOOSING US</span>
+        </div>
+        <h1 class="why-us-hg-tpg">The global business automation</h1>
+        <p class="why-us-ph-sm-text">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariat occaecat cupidatat mque laudantium, totam rem ape non proident, sunt in culpa qui officia deserunt mollit
+        </p>
+        <div class="why-us-bf-blocks">
+           <div class="ch-bx-bl-item">
+             <img src="./static/icons/check.png" alt="">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           </div>
+           <div class="ch-bx-bl-item item-mrg">
+            <img src="./static/icons/check.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="why-us-bf-blocks">
+          <div class="ch-bx-bl-item">
+            <img src="./static/icons/check.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="ch-bx-bl-item item-mrg">
+           <img src="./static/icons/check.png" alt="">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+       </div>
+        <div class="why-us-bf-blocks">
+          <div class="ch-bx-bl-item">
+            <img src="./static/icons/check.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="ch-bx-bl-item item-mrg">
+           <img src="./static/icons/check.png" alt="">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+       </div>
+      </div>
+      <div class="why-us-area-inner-right">
+        <div class="why-us-banner-img">
+          <img src="https://wp.themexriver.com/niobis/home-5/wp-content/uploads/sites/6/2020/11/fm-1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="why-us-bg">
+      <img src="https://images.pexels.com/photos/3321789/pexels-photo-3321789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 " alt="">
+    </div>
+  </section>
+  <section class="hisizon-carousell">
+    <div class="hisizon-carousell-inner">
+      <div class="hisizon-carousell-inner-infoTop">
+        <div class="cs-horizon-hd-sm-box">
+          <span>INDUSTRIES</span>
+          <h1>Major Industries We Served</h1>
+        </div>
+        <p class="horizon-text-heading">
+          Which is the same as saying through shrinking from toil and pain
+          these perfectly simple and easy to distinguish.
+        </p>
+      </div>
+      <div class="wrapper">
+      <div class="carousel">
+        <div class="slide-content">
+          <div class="slide-img">
+            <img src="https://images.pexels.com/photos/5239803/pexels-photo-5239803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+          </div>
+          <div class="slide-item-footer">
+            <div class="slide-footer-corcle">
+              <img src="./static/icons/bank.png" alt="">
+            </div>
+            <h3 class="slide-item-content-info">
+              Banking & <br> capital Matketing
+            </h3>
+            <a href="" class="read-more-btn">
+              <span>Read more</span>
+            </a>
+          </div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-img">
+            <img src="https://images.pexels.com/photos/5239803/pexels-photo-5239803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+          </div>
+          <div class="slide-item-footer">
+            <div class="slide-footer-corcle">
+              <img src="./static/icons/bank.png" alt="">
+            </div>
+            <h3 class="slide-item-content-info">
+              Banking & <br> capital Matketing
+            </h3>
+            <a href="" class="read-more-btn">
+              <span>Read more</span>
+            </a>
+          </div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-img">
+            <img src="https://images.pexels.com/photos/5239803/pexels-photo-5239803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+          </div>
+          <div class="slide-item-footer">
+            <div class="slide-footer-corcle">
+              <img src="./static/icons/bank.png" alt="">
+            </div>
+            <h3 class="slide-item-content-info">
+              Banking & <br> capital Matketing
+            </h3>
+            <a href="" class="read-more-btn">
+              <span>Read more</span>
+            </a>
+          </div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-img">
+            <img src="https://images.pexels.com/photos/5239803/pexels-photo-5239803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+          </div>
+          <div class="slide-item-footer">
+            <div class="slide-footer-corcle">
+              <img src="./static/icons/bank.png" alt="">
+            </div>
+            <h3 class="slide-item-content-info">
+              Banking & <br> capital Matketing
+            </h3>
+            <a href="" class="read-more-btn">
+              <span>Read more</span>
+            </a>
+          </div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-img">
+            <img src="https://images.pexels.com/photos/5239803/pexels-photo-5239803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+          </div>
+          <div class="slide-item-footer">
+            <div class="slide-footer-corcle">
+              <img src="./static/icons/bank.png" alt="">
+            </div>
+            <h3 class="slide-item-content-info">
+              Banking & <br> capital Matketing
+            </h3>
+            <a href="" class="read-more-btn">
+              <span>Read more</span>
+            </a>
+          </div>
+        </div>
+        <div class="slide-content">
+          <div class="slide-img">
+            <img src="https://images.pexels.com/photos/5239803/pexels-photo-5239803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+          </div>
+          <div class="slide-item-footer">
+            <div class="slide-footer-corcle">
+              <img src="./static/icons/bank.png" alt="">
+            </div>
+            <h3 class="slide-item-content-info">
+              Banking & <br> capital Matketing
+            </h3>
+            <a href="" class="read-more-btn">
+              <span>Read more</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+        <!--
+  <section class="st-colab">
+    <div class="st-colab-inner">
+      <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/bg-10.jpg" alt="" class="st-colab-banner">
+    <div class="st-colab-info">
+      <h3>START HERE</h3>
+      <h1>NEVER GIVE UP</h1>
+      <h4>96 Some Street, Some city 88901, GEORGIA</h4>
+      <div class="cb-contact-blcok">
+        <a href="">
+          <svg width="18" height="20" viewBox="0 0 513 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M213.012 299.988C164.143 251.118 153.108 202.249 150.619 182.669C149.923 177.255 151.786 171.826 155.659 167.98L195.207 128.45C201.024 122.636 202.057 113.576 197.696 106.602L134.729 8.82758C129.905 1.10564 120 -1.68129 111.857 2.39227L10.7721 49.9994C4.18722 53.2419 0.314095 60.2382 1.06173 67.5399C6.35829 117.857 28.2948 241.549 149.851 363.114C271.407 484.679 395.081 506.606 445.425 511.903C452.726 512.651 459.723 508.777 462.965 502.193L510.572 401.108C514.631 392.983 511.862 383.104 504.172 378.271L406.398 315.321C399.428 310.956 390.368 311.981 384.55 317.793L345.02 357.341C341.174 361.214 335.744 363.077 330.331 362.381C310.751 359.892 261.882 348.857 213.012 299.988V299.988Z" fill="black"/>
+            <path d="M407.069 273.655C397.318 273.655 389.414 265.751 389.414 256C389.331 182.904 330.096 123.669 257 123.586C247.249 123.586 239.345 115.682 239.345 105.931C239.345 96.1804 247.249 88.2759 257 88.2759C349.589 88.378 424.622 163.411 424.724 256C424.724 265.751 416.82 273.655 407.069 273.655Z" fill="black"/>
+            <path d="M495.345 273.655C485.594 273.655 477.69 265.751 477.69 256C477.553 134.173 378.827 35.4466 257 35.3103C247.249 35.3103 239.345 27.4059 239.345 17.6552C239.345 7.90449 247.249 0 257 0C398.32 0.155682 512.844 114.68 513 256C513 260.682 511.14 265.173 507.829 268.484C504.518 271.795 500.027 273.655 495.345 273.655Z" fill="black"/>
+          </svg> 
+          <span>( +995 ) 123 456 789</span>
+        </a>
+        <a href="">
+          <svg width="20" height="20" viewBox="0 0 512 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M507.49 25.721L352.211 180L507.49 334.279C510.297 328.412 512 321.926 512 315V45C512 38.073 510.297 31.588 507.49 25.721Z" fill="black"/>
+            <path d="M467 0H44.9999C38.0729 0 31.5879 1.703 25.7209 4.51L224.184 201.973C241.732 219.521 270.268 219.521 287.816 201.973L486.279 4.51C480.412 1.703 473.927 0 467 0Z" fill="black"/>
+            <path d="M4.51 25.721C1.703 31.588 0 38.073 0 45V315C0 321.927 1.703 328.413 4.51 334.279L159.789 180L4.51 25.721Z" fill="black"/>
+            <path d="M331 201.211L309.027 223.184C279.788 252.423 232.211 252.423 202.972 223.184L181 201.211L25.7209 355.49C31.5879 358.297 38.0729 360 44.9999 360H467C473.927 360 480.412 358.297 486.279 355.49L331 201.211Z" fill="black"/>
+          </svg>  
+          <span>Example@company.com</span>
+        </a>
+      </div>
+      <a href="" class="cb-appmnt-btn">
+        <span>APPOINTMENT</span>
+        <svg width="20" height="20" viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M506.134 109.843C506.128 109.837 506.123 109.83 506.116 109.824L401.612 5.82406C393.783 -1.96694 381.12 -1.93795 373.327 5.89205C365.535 13.7211 365.565 26.384 373.394 34.176L443.558 104H20C8.954 104 0 112.954 0 124C0 135.046 8.954 144 20 144H443.557L373.395 213.824C365.566 221.616 365.536 234.279 373.328 242.108C381.121 249.939 393.785 249.966 401.613 242.176L506.117 138.176C506.123 138.17 506.128 138.163 506.135 138.157C513.968 130.339 513.943 117.635 506.134 109.843Z" fill="black"/>
+        </svg>   
+      </a>
+    </div>
+    </div>
+  </section>
+  <section class="sbscribe-banner">
+    <div class="sbscribe-banner-inner">
+      <img src="http://el.commonsupport.com/newwp/envolve2/wp-content/uploads/2020/05/bg-11.png" alt="" class="sbs-banner-img">
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="footer-block">
+        <div class="footer-block-heading">
+          <h2>About Company</h2>
+          <p>To take a trivial example, which undertakes
+            laborious physical exercise.
+          </p>
+          <ul>
+            <li><a href="">Niche expertise</a></li>
+            <li><a href="">Partner-led service</a></li>
+            <li><a href="">Transparent fees</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-block">
+        <div class="footer-block-heading">
+          <h2>Useful Links</h2>
+          <ul>
+            <li><a href="">Audit & Assurance</a></li>
+            <li><a href="">Finance & Restructuring</a></li>
+            <li><a href="">Home Business</a></li>
+            <li><a href="">Home Consulting</a></li>
+            <li><a href="">Portfolio Details</a></li>
+            <li><a href="">Software & Research</a></li>
+            <li><a href="">Strategy & Planning</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-block">
+        <div class="footer-block-heading posts">
+          <h2>Useful Links</h2>
+          <ul>
+            <li><a href="">Audit & Assurance</a></li>
+            <li><a href="">Finance & Restructuring</a></li>
+            <li><a href="">Home Business</a></li>
+            <li><a href="">Home Consulting</a></li>
+            <li><a href="">Portfolio Details</a></li>
+            <li><a href="">Software & Research</a></li>
+            <li><a href="">Strategy & Planning</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+    var header = document.querySelector(".site-header")
+    var sticky = header.offsetTop;
+    
+    function myFunction() { 
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky")
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+
+    var search = document.querySelector(".search-fade-block")
+    function searchOpen(){
+      search.classList.add("search-visible")
+    }
+    function searchHide(){
+      search.classList.remove("search-visible")
+    }
+
+    </script>
+    <script>
+
+$('.carousel').slick({
+  slidesToShow: 4,
+  dots:true,
+  centerMode: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+</body>
+</html>
